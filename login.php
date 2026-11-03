@@ -7,7 +7,7 @@ if(isset($_POST['login'])){
 
 if($login == 'admin' && $password == 'Tajnehaslo321'){
     $_SESSION['login'] = $login;
-    header('Location: index.php');
+    header('location: wyniki.php');
     exit();
 }
 }
