@@ -31,7 +31,7 @@ $conn = mysqli_connect("localhost", "root", "", "laboratorium");
                 echo "<td>" . $row['data'] . "</td>";
                 echo "<td>" . $row['data'] . "</td>";
                 if($row['plik']){
-                    echo "<td><a href='uploads/" . $row['plik'] . "' download>Pobierz plik</a></td>";
+                    echo "<td><a href='uploads/" . $row['plik'] . "' download>Wyniki</a></td>";
                 } else {
                     echo "<td>Brak pliku</td>";
                 }
